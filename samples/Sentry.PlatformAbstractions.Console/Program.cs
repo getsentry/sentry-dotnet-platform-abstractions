@@ -15,11 +15,11 @@ namespace Sentry.PlatformAbstractions.Console
 #if !NETCOREAPP2_0 &&  !NETCOREAPP1_1
             System.Console.WriteLine($@"
 Runtime.Current.FrameworkInstallation:
-    ShortName:                {Runtime.Current.FrameworkInstallation.ShortName}
-    Profile:                  {Runtime.Current.FrameworkInstallation.Profile}
-    Version:                  {Runtime.Current.FrameworkInstallation.Version}
-    ServicePack:              {Runtime.Current.FrameworkInstallation.ServicePack}
-    Release:                  {Runtime.Current.FrameworkInstallation.Release}
+    ShortName:                {Runtime.Current.FrameworkInstallation?.ShortName}
+    Profile:                  {Runtime.Current.FrameworkInstallation?.Profile}
+    Version:                  {Runtime.Current.FrameworkInstallation?.Version}
+    ServicePack:              {Runtime.Current.FrameworkInstallation?.ServicePack}
+    Release:                  {Runtime.Current.FrameworkInstallation?.Release}
     ToString():               {Runtime.Current.FrameworkInstallation}
             ");
 #endif
