@@ -1,3 +1,11 @@
+# Discontinued.
+
+> The code was moved into the [Sentry SDK for .NET](https://github.com/getsentry/sentry-dotnet). Targets below net461 were deleted in there.
+
+This code base will not be updated.
+
+
+
 <p align="center">
   <a href="https://sentry.io" target="_blank" align="center">
     <img src="https://sentry-brand.storage.googleapis.com/sentry-logo-black.png" width="280">
